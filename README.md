@@ -1,7 +1,7 @@
 
 # Set React App
 
-**Author:** [Shubham Sarda](https://www.linkedin.com/in/shubhamsarda/) / [@shubham_ul](https://x.com/shubham_ul)  
+**Author:** [Samadrita Roy](https://www.linkedin.com/in/samadrita-roy-975638188/)
 
 ---
 
@@ -126,7 +126,7 @@ This project is **free to use** and distributed under the MIT License. See the [
 
 ## Connect with Me
 
-**Author:** [Shubham Sarda](https://www.linkedin.com/in/shubhamsarda/) / [@shubham_ul](https://x.com/shubham_ul)  
+**Author:** [Samadrita Roy](https://www.linkedin.com/in/samadrita-roy-975638188/) 
 
 If you find this project helpful or have any questions, feel free to reach out on LinkedIn/Twitter!
 
