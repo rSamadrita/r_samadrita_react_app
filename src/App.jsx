@@ -1,24 +1,23 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {useDispatch} from 'react-redux'
+import {addToCart} from './redux/action';
+import Header from './components/Header';
 
 function App() {
+  const dispatch = useDispatch();
+
+  const product = {
+    name: "macbook m5 air",
+    type: "laptop",
+    color: "midnight blue",
+    price: "1 lakh"
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://react.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reacts
-        </a>
-      </header>
+      <Header/>
+     <button onClick={()=>dispatch(addToCart(product))}>Add to cart</button>
     </div>
   );
 }
